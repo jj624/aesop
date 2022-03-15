@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesop</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" 
+    href="./css/pc.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" 
+    href="./css/mobile.css" media="screen and (max-width:767px)">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>
+                <a href="./">
+                    <img src="./images/logo.svg" alt="logo">
+                </a>
+            </h1>
+            <nav id="gnb">
+                <ul>
+                    <li><a href="#">제품</a></li>
+                    <li><a href="#">이솝 소개</a></li>
+                    <li><a href="#">매장 안내</a></li>
+                    <li><a href="#">기프트 가이드</a></li>
+                    <li><a href="#">이벤트</a></li>
+                </ul>
+            </nav>
+            <div id="right-menu" class="pc-only">
+                <a href="#"><img src="./images/search.svg" alt=""></a>
+                <a href="#"><img src="./images/shopping.svg" alt=""></a>
+                <a href="#"><img src="./images/user.svg" alt=""></a>
+            </div>
+            <a href="#" id="gnb-toggle-btn" class="mobile-only">
+                <img src="./images/toggle-btn.svg" alt="main menu">
+            </a>   
+            </button>
+        </div>
+    </header>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+        <!-- 슬라이더 콘텐츠 -->
+        <div class="swiper-slide s1">
+            <div class="title">
+                <h2>
+                    Hwyl <br>
+                    복잡하면서 편안한<br>
+                    짙은 그린과 흙내음의 조화
+                </h2>
+                <h3 class="pc-only"><a href="#" class="slider-btn">자세히보기</a></h3>
+            </div>
+        </div>
+        <div class="swiper-slide s2">
+            <div class="title">
+                <h2>
+                    그리운 이들에게 전하는 인사<br>
+                    기프트 키트 컬렉션
+                </h2>
+                <h3 class="pc-only"><a href="#" class="slider-btn">자세히보기</a></h3>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    
+
+    <main>
+        <section id="content01" class="container">
+            <img src="./images/content01.jpg" alt="01">
+            <div class="text-box">
+                <div class="text-box-inner">
+                    <h2>나를 위한 선물</h2>
+                    <p>가장 중요한 자신과의 관계를 위한 특별한 선물. <br>
+                    너그럽고 제약을 두지 않고 선물하세요.</p>
+                    <a href="#" class="detail-btn">나를 위한 선물 보기</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="content" class="mobile-only">
+            <h2>누구나 좋아하는 <br> 이솝의 베스트셀러</h2>
+            <div class="gallery">
+                <img class="on" src="./images/best1.jpg" alt="1">
+                <img src="./images/best2.jpg" alt="2">
+                <img src="./images/best3.jpg" alt="3">
+                <img src="./images/best4.jpg" alt="4">
+            </div>
+            <div class="btn-group">
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>
+            </div>
+        </section>
+        
+
+
+        <section id="content02" class="pc-only">
+            <div class="content-box">
+                <h2>누구나 좋아하는 이솝의 베스트셀러</h2>
+                <div class="box-inner">
+                    <div class="product">
+                        <a href="#"><img src="./images/best1.jpg" alt="1"></a>
+                        <a href="#">
+                            <p>레져렉션 아로마틱 핸드 워시<br>
+                                500ml / 50,000원</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="./images/best2.jpg" alt="2"></a>
+                        <a href="#">
+                            <p>레저렉션 아로마틱 핸드 밤<br>
+                                75ml / 31,000원</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="./images/best3.jpg" alt="3"></a>
+                        <a href="#">
+                            <p>테싯 오 드 퍼퓸<br>
+                                50ml / 130,000원</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="./images/best4.jpg" alt="4"></a>
+                        <a href="#">
+                            <p>라인드 컨센트레이트 바디 밤<br>
+                                100ml / 36,000원</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content03" class="container">
+            <img src="./images/content02.jpg" alt="02">
+            <div class="text-box">
+                <div class="text-box-inner">
+                    <h2>시트러스 멜란지</h2>
+                    <p>기분 전환을 돕는 이솝의 네 번째 바디 클렌저<br>
+                        시트러스 멜란지 출시</p>
+                    <a href="#" class="detail-btn">바디 클렌저 보기</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <section id="about">
+        <h2>이솝의 지속가능성</h2>
+        <p>
+            확고한 기업 윤리를 기반으로 설립된 이솝의 목표는 <br>
+            품질, 우수성, 완전성을 변함없이 추구하는 한편, <br>
+            언제나 환경영향을 최소화하기 위해 노력하는 것입니다.
+        </p>
+    </section>
+
+    <footer>
+        <div id="main-footer" class="pc-only">
+            <div class="footer-about">
+                <img src="./images/logo.svg" alt="logo">
+                <div class="about-text">
+                    <p>고객센터 1800-1987</p>
+                    <p>aesop@aesop.com</p>
+                </div>
+                <div class="sns-group">
+                    <a href="#"><img src="./images/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="./images/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="./images/linkedin.svg" alt="linkedin"></a>
+                    <a href="#"><img src="./images/kakao.svg" alt="kakao"></a>
+                </div>
+            </div>
+            <div class="menu-box">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#">채용</a><span>|</span></li>
+                        <li><a href="#"><strong>이솝 코리아 개인정보 처리방침</strong></a><span>|</span></li>
+                        <li><a href="#">이솝 재단</a><span>|</span></li>
+                        <li><a href="#">이용 약관</a><span>|</span></li>
+                        <li><a href="#">문의하기</a></li>
+                    </ul>
+                </div>
+                <div class="subs">
+                    <form action="">
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="이메일 주소를 입력하세요.">
+                        <input type="submit" value="구독하기" id="subs-btn">
+                    </form>
+                    <p>이솝 제품, 서비스, 스토어, 행사, 문화적 관심사 등 다양한 소식을 받아볼 수 있도록 구독하세요.</p>
+                </div>
+                <div class="footer-info">
+                    <p>
+                        상호: 이솝코리아 유한회사 | 주소: 서울특별시 강남구 도산대로45길 10-6 이솝코리아 <br>
+                        사업자 등록 번호: 220-88-56014 | 통신판매업 신고번호: 2014-서울강남-02300
+                    </p>
+                </div>
+                <div class="copy">
+                    <p>Copyright ⓒ Aesop All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div id="mb-footer" class="mobile-only">
+            <div class="sns-group">
+                <a href="#"><img src="./images/instagram.svg" alt="instagram"></a>
+                <a href="#"><img src="./images/twitter.svg" alt="twitter"></a>
+                <a href="#"><img src="./images/linkedin.svg" alt="linkedin"></a>
+                <a href="#"><img src="./images/kakao.svg" alt="kakao"></a>
+            </div>
+            <img src="./images/logo.svg" alt="logo">
+            <div class="mb-footer-text">
+                <p>
+                    상호 : 이솝코리아 유한회사 <br>
+                    서울특별시 강남구 도산대로45길 10-6 이솝코리아 <br>
+                    고객센터 1800-1987
+                </p>
+            </div>
+            <div class="mb-copy">
+                <p>Copyright ⓒ Aesop All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/swiper.js"></script>
+</body>
+</html>
