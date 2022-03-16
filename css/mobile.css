@@ -240,7 +240,6 @@ main section.container .text-box .text-box-inner {
 .btn-group {
     cursor: pointer;
     padding: 16px;
-    color: black;
 }
 
 .prev, .next {
@@ -249,6 +248,7 @@ main section.container .text-box .text-box-inner {
     font-size: 30px;
     padding: 15px;
     cursor: pointer;
+    color: #333;
 }
 
 .prev {
